@@ -1,0 +1,31 @@
+.dataItem {
+color: #2D333F;
+}
+
+.check {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Brandon Text;
+  font-size: 16px;
+  line-height: 24px;
+  width: 280px !important;
+  height: 64px;
+}
+.check-container {
+  padding: 16px 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 48px;
+  width: 100%;
+
+}
+
+.check :hover {
+  background-color: #EEF8FB;
+  cursor: pointer;
+
+}

@@ -1,0 +1,12 @@
+.dataResult {
+  margin-top: 5px;
+  width: 280px;
+  height: 304px;
+  background-color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px .5px .5px;
+  
+}
