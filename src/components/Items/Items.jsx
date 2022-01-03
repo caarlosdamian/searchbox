@@ -1,26 +1,23 @@
 import React from "react";
 import "./Items.css";
-const Items = () => {
+const Items = ({ filterData }) => {
   return (
     <>
-      <div className="check">
-        <div className="check-container">
-          <span className="dataItem">Erin Applebee</span>
-          <span className="dataItem"> erindapplebee@dardencom</span>
+
+        <div className="suggestion">
+          <span className="suggestion-span">Suggestions</span>
+          <span className="suggestion-ex">x</span>
         </div>
-      </div>
-      <div className="check">
-        <div className="check-container">
-          <span className="dataItem">Erin Applebee</span>
-          <span className="dataItem"> erindapplebee@dardencom</span>
-        </div>
-      </div>
-      <div className="check">
-        <div className="check-container">
-          <span className="dataItem">Erin Applebee</span>
-          <span className="dataItem"> erindapplebee@dardencom</span>
-        </div>
-      </div>
+        {filterData.map((value) => (
+          <div className="check" key={value.name}>
+            <div className="check-container">
+              <span className="dataItem">{value.name}</span>
+              <span className="dataItem"> erindapplebee@dardencom</span>
+            </div>
+          </div>
+        ))}
+
+      
     </>
   );
 };

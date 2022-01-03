@@ -29,3 +29,24 @@ color: #2D333F;
   cursor: pointer;
 
 }
+
+.suggestion{
+  width: 280px;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.suggestion-span{
+font-family: Brandon Text;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+margin-left: 16px;
+color: #91949A;
+}
+.suggestion-ex{
+  color: #2D333F;
+  margin-right: 19.9px;
+}
